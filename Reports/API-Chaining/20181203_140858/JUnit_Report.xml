@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API-Chaining" time="7" tests="2" failures="0" errors="0">
+   <testsuite name="API-Chaining" tests="2" failures="0" errors="0" time="7" timestamp="2018-12-03 14:09:00" hostname="SYSTEM - DESKTOP" id="Test Suites/API-Chaining">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Apple\\Katalon Studio\\Project1\\Reports\\API-Chaining\\20181203_140858"/>
+         <property name="logFiles" value="C:\\Users\\Apple\\Katalon Studio\\Project1\\Reports\\API-Chaining\\20181203_140858\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SYSTEM - DESKTOP"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+      </properties>
+      <testcase name="Test Cases/API-Chaining/UpdateUserfromListUser" classname="Test Cases/API-Chaining/UpdateUserfromListUser" status="PASSED">
+         <system-out><![CDATA[2018-12-03 14:09:01 - [TEST_CASE][PASSED] - Test Cases/API-Chaining/UpdateUserfromListUser: Test Cases/API-Chaining/UpdateUserfromListUser
+
+2018-12-03 14:09:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API-Chaining/ListUser")): Send request successfully
+
+2018-12-03 14:09:05 - [MESSAGE][INFO] - HAR: C:\Users\Apple\Katalon Studio\Project1\Reports\API-Chaining\20181203_140858\requests\main\0.har
+
+2018-12-03 14:09:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-03 14:09:05 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2018-12-03 14:09:05 - [TEST_STEP][PASSED] - result = slurper.parseText(response.getResponseBodyContent()): null
+
+2018-12-03 14:09:05 - [TEST_STEP][PASSED] - value = first_name: null
+
+2018-12-03 14:09:05 - [TEST_STEP][PASSED] - println("Value of setusername is" + value): null
+
+2018-12-03 14:09:05 - [TEST_STEP][PASSED] - userName = value: null
+
+2018-12-03 14:09:05 - [TEST_STEP][PASSED] - println("Value of GlobalVariable is " + userName): null
+
+2018-12-03 14:09:05 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("API-Chaining/UpdateUser", ["userName":userName])): Send request and verify the response successfully
+
+2018-12-03 14:09:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-12-03 14:09:06 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2018-12-03 14:09:06 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2018-12-03 14:09:06 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-12-03 14:09:06 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API-Chaining/UpdateUserfromListUser_withGlobalVariable" classname="Test Cases/API-Chaining/UpdateUserfromListUser_withGlobalVariable" status="PASSED">
+         <system-out><![CDATA[2018-12-03 14:09:06 - [TEST_CASE][PASSED] - Test Cases/API-Chaining/UpdateUserfromListUser_withGlobalVariable: Test Cases/API-Chaining/UpdateUserfromListUser_withGlobalVariable
+
+2018-12-03 14:09:06 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API-Chaining/ListUser")): Send request successfully
+
+2018-12-03 14:09:08 - [MESSAGE][INFO] - HAR: C:\Users\Apple\Katalon Studio\Project1\Reports\API-Chaining\20181203_140858\requests\main\1.har
+
+2018-12-03 14:09:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-03 14:09:08 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2018-12-03 14:09:08 - [TEST_STEP][PASSED] - result = slurper.parseText(response.getResponseBodyContent()): null
+
+2018-12-03 14:09:08 - [TEST_STEP][PASSED] - value = first_name: null
+
+2018-12-03 14:09:08 - [TEST_STEP][PASSED] - println("Value of setusername is" + value): null
+
+2018-12-03 14:09:08 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API-Chaining/UpdateUser", ["userName":value])): Send request successfully
+
+2018-12-03 14:09:08 - [MESSAGE][INFO] - HAR: C:\Users\Apple\Katalon Studio\Project1\Reports\API-Chaining\20181203_140858\requests\main\2.har
+
+2018-12-03 14:09:08 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-03 14:09:00 - [TEST_SUITE][PASSED] - API-Chaining: Test Cases/API-Chaining/UpdateUserfromListUser_withGlobalVariable]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

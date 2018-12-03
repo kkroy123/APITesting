@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+API-Chaining,,,2018-12-03 14:09:00,2018-12-03 14:09:08,7.915s,PASSED
+,,,,,,
+Test Cases/API-Chaining/UpdateUserfromListUser,,,2018-12-03 14:09:01,2018-12-03 14:09:06,5.319s,PASSED
+"response = sendRequest(findTestObject(""API-Chaining/ListUser""))",,,2018-12-03 14:09:01,2018-12-03 14:09:05,3.493s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,2018-12-03 14:09:05,2018-12-03 14:09:05,0.011s,PASSED
+result = slurper.parseText(response.getResponseBodyContent()),,,2018-12-03 14:09:05,2018-12-03 14:09:05,0.029s,PASSED
+value = first_name,,,2018-12-03 14:09:05,2018-12-03 14:09:05,0.019s,PASSED
+"println(""Value of setusername is"" + value)",,,2018-12-03 14:09:05,2018-12-03 14:09:05,0.008s,PASSED
+userName = value,,,2018-12-03 14:09:05,2018-12-03 14:09:05,0.023s,PASSED
+"println(""Value of GlobalVariable is "" + userName)",,,2018-12-03 14:09:05,2018-12-03 14:09:05,0.002s,PASSED
+"sendRequestAndVerify(findTestObject(""API-Chaining/UpdateUser"", [""userName"":userName]))",,,2018-12-03 14:09:05,2018-12-03 14:09:06,1.164s,PASSED
+,,,,,,
+Test Cases/API-Chaining/UpdateUserfromListUser_withGlobalVariable,,,2018-12-03 14:09:06,2018-12-03 14:09:08,2.131s,PASSED
+"response = sendRequest(findTestObject(""API-Chaining/ListUser""))",,,2018-12-03 14:09:06,2018-12-03 14:09:08,1.125s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,2018-12-03 14:09:08,2018-12-03 14:09:08,0.002s,PASSED
+result = slurper.parseText(response.getResponseBodyContent()),,,2018-12-03 14:09:08,2018-12-03 14:09:08,0.006s,PASSED
+value = first_name,,,2018-12-03 14:09:08,2018-12-03 14:09:08,0.002s,PASSED
+"println(""Value of setusername is"" + value)",,,2018-12-03 14:09:08,2018-12-03 14:09:08,0.002s,PASSED
+"sendRequest(findTestObject(""API-Chaining/UpdateUser"", [""userName"":value]))",,,2018-12-03 14:09:08,2018-12-03 14:09:08,0.676s,PASSED

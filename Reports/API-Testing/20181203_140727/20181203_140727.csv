@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+API-Testing,,,2018-12-03 14:07:31,2018-12-03 14:07:33,2.267s,PASSED
+,,,,,,
+Test Cases/API-Testing/CreateUser,,,2018-12-03 14:07:31,2018-12-03 14:07:32,0.497s,PASSED
+return null,,,2018-12-03 14:07:32,2018-12-03 14:07:32,0.002s,PASSED
+,,,,,,
+Test Cases/API-Testing/DeleteUser,,,2018-12-03 14:07:32,2018-12-03 14:07:32,0.420s,PASSED
+return null,,,2018-12-03 14:07:32,2018-12-03 14:07:32,0.002s,PASSED
+,,,,,,
+Test Cases/API-Testing/ListUser,,,2018-12-03 14:07:32,2018-12-03 14:07:33,0.506s,PASSED
+return null,,,2018-12-03 14:07:33,2018-12-03 14:07:33,0.001s,PASSED
+,,,,,,
+Test Cases/API-Testing/UpdateUser,,,2018-12-03 14:07:33,2018-12-03 14:07:33,0.259s,PASSED
+return null,,,2018-12-03 14:07:33,2018-12-03 14:07:33,0.001s,PASSED

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API-Testing" time="2" tests="4" failures="0" errors="0">
+   <testsuite name="API-Testing" tests="4" failures="0" errors="0" time="2" timestamp="2018-12-03 14:07:31" hostname="SYSTEM - DESKTOP" id="Test Suites/API-Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Apple\\Katalon Studio\\Project1\\Reports\\API-Testing\\20181203_140727"/>
+         <property name="logFiles" value="C:\\Users\\Apple\\Katalon Studio\\Project1\\Reports\\API-Testing\\20181203_140727\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SYSTEM - DESKTOP"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+      </properties>
+      <testcase name="Test Cases/API-Testing/CreateUser" classname="Test Cases/API-Testing/CreateUser" status="PASSED">
+         <system-out><![CDATA[2018-12-03 14:07:31 - [TEST_CASE][PASSED] - Test Cases/API-Testing/CreateUser: Test Cases/API-Testing/CreateUser
+
+2018-12-03 14:07:32 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API-Testing/DeleteUser" classname="Test Cases/API-Testing/DeleteUser" status="PASSED">
+         <system-out><![CDATA[2018-12-03 14:07:32 - [TEST_CASE][PASSED] - Test Cases/API-Testing/DeleteUser: Test Cases/API-Testing/DeleteUser
+
+2018-12-03 14:07:32 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API-Testing/ListUser" classname="Test Cases/API-Testing/ListUser" status="PASSED">
+         <system-out><![CDATA[2018-12-03 14:07:32 - [TEST_CASE][PASSED] - Test Cases/API-Testing/ListUser: Test Cases/API-Testing/ListUser
+
+2018-12-03 14:07:33 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API-Testing/UpdateUser" classname="Test Cases/API-Testing/UpdateUser" status="PASSED">
+         <system-out><![CDATA[2018-12-03 14:07:33 - [TEST_CASE][PASSED] - Test Cases/API-Testing/UpdateUser: Test Cases/API-Testing/UpdateUser
+
+2018-12-03 14:07:33 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-03 14:07:31 - [TEST_SUITE][PASSED] - API-Testing: Test Cases/API-Testing/UpdateUser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
