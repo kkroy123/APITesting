@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DataDrivenTesting,,,2018-12-05 13:06:50,2018-12-05 13:07:16,26.468s,PASSED
+,,,,,,
+Test Cases/API-DataDriven/DataDriven,,,2018-12-05 13:06:50,2018-12-05 13:06:55,4.804s,PASSED
+"sendRequest(findTestObject(""DataDriven/CreateUserusingDataDriven"", [""dataDrivenusername"":userName]))",,,2018-12-05 13:06:50,2018-12-05 13:06:55,4.266s,PASSED
+"println(""Using user name"" + userName)",,,2018-12-05 13:06:55,2018-12-05 13:06:55,0.006s,PASSED
+,,,,,,
+Test Cases/API-DataDriven/DataDriven,,,2018-12-05 13:06:55,2018-12-05 13:06:57,1.999s,PASSED
+"sendRequest(findTestObject(""DataDriven/CreateUserusingDataDriven"", [""dataDrivenusername"":userName]))",,,2018-12-05 13:06:55,2018-12-05 13:06:57,1.975s,PASSED
+"println(""Using user name"" + userName)",,,2018-12-05 13:06:57,2018-12-05 13:06:57,0.001s,PASSED
+,,,,,,
+Test Cases/API-DataDriven/DataDriven,,,2018-12-05 13:06:57,2018-12-05 13:07:16,19.123s,PASSED
+"sendRequest(findTestObject(""DataDriven/CreateUserusingDataDriven"", [""dataDrivenusername"":userName]))",,,2018-12-05 13:06:57,2018-12-05 13:07:16,19.109s,PASSED
+"println(""Using user name"" + userName)",,,2018-12-05 13:07:16,2018-12-05 13:07:16,0.001s,PASSED

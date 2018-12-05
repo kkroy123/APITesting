@@ -4,7 +4,7 @@
    <name>API-Chaining</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-03T14:08:58</lastRun>
+   <lastRun>2018-12-04T19:53:51</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

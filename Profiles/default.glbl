@@ -14,4 +14,9 @@
       <initValue>'reqres.in'</initValue>
       <name>Endpoint</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'IN'</initValue>
+      <name>CountryISOCode</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

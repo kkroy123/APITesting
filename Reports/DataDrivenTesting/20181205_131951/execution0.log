@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-12-05T13:19:53</date>
+  <millis>1543996193975</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/DataDrivenTesting</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">DataDrivenTesting</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/DataDrivenTesting</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:53</date>
+  <millis>1543996193996</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = SYSTEM - DESKTOP</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">SYSTEM - DESKTOP</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:53</date>
+  <millis>1543996193996</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:53</date>
+  <millis>1543996193997</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.104</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.104</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:53</date>
+  <millis>1543996193998</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.9.1.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.9.1.2</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:54</date>
+  <millis>1543996194372</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/API-DataDriven/DataDriven</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/API-DataDriven/DataDriven</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/API-DataDriven/DataDriven</property>
+  <property name="source">C:\\Users\\Apple\\Katalon Studio\\Project1\\Test Cases\\API-DataDriven\\DataDriven.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:54</date>
+  <millis>1543996194406</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userName = Krishna</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:54</date>
+  <millis>1543996194924</millis>
+  <sequence>8</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;DataDriven/CreateUserusingDataDriven\&amp;quot;, [\&amp;quot;dataDrivenusername\&amp;quot;:userName]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:58</date>
+  <millis>1543996198461</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\Apple\\Katalon Studio\\Project1\\Reports\\DataDrivenTesting\\20181205_131951\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">13da886c-8432-47cd-b5ed-581a829d00e5</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:58</date>
+  <millis>1543996198615</millis>
+  <sequence>13</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:58</date>
+  <millis>1543996198616</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;DataDriven/CreateUserusingDataDriven\&amp;quot;, [\&amp;quot;dataDrivenusername\&amp;quot;:userName]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:58</date>
+  <millis>1543996198617</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;Using user name\&amp;quot; + userName)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:58</date>
+  <millis>1543996198621</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;Using user name\&amp;quot; + userName)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:58</date>
+  <millis>1543996198621</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/API-DataDriven/DataDriven</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:58</date>
+  <millis>1543996198622</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/API-DataDriven/DataDriven</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:58</date>
+  <millis>1543996198627</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/API-DataDriven/DataDriven</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/API-DataDriven/DataDriven</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/API-DataDriven/DataDriven</property>
+  <property name="source">C:\\Users\\Apple\\Katalon Studio\\Project1\\Test Cases\\API-DataDriven\\DataDriven.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:58</date>
+  <millis>1543996198636</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userName = Alok</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:58</date>
+  <millis>1543996198639</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;DataDriven/CreateUserusingDataDriven\&amp;quot;, [\&amp;quot;dataDrivenusername\&amp;quot;:userName]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:59</date>
+  <millis>1543996199604</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\Apple\\Katalon Studio\\Project1\\Reports\\DataDrivenTesting\\20181205_131951\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">5c4548ef-fd7d-41de-a89e-aa051a9726af</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:59</date>
+  <millis>1543996199609</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:59</date>
+  <millis>1543996199610</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;DataDriven/CreateUserusingDataDriven\&amp;quot;, [\&amp;quot;dataDrivenusername\&amp;quot;:userName]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:59</date>
+  <millis>1543996199610</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;Using user name\&amp;quot; + userName)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:59</date>
+  <millis>1543996199611</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;Using user name\&amp;quot; + userName)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:59</date>
+  <millis>1543996199611</millis>
+  <sequence>31</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/API-DataDriven/DataDriven</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:59</date>
+  <millis>1543996199613</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/API-DataDriven/DataDriven</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:59</date>
+  <millis>1543996199622</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/API-DataDriven/DataDriven</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/API-DataDriven/DataDriven</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/API-DataDriven/DataDriven</property>
+  <property name="source">C:\\Users\\Apple\\Katalon Studio\\Project1\\Test Cases\\API-DataDriven\\DataDriven.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-12-05T13:19:59</date>
+  <millis>1543996199630</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userName = Shobha</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:19:59</date>
+  <millis>1543996199632</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;DataDriven/CreateUserusingDataDriven\&amp;quot;, [\&amp;quot;dataDrivenusername\&amp;quot;:userName]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-12-05T13:20:00</date>
+  <millis>1543996200392</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\Apple\\Katalon Studio\\Project1\\Reports\\DataDrivenTesting\\20181205_131951\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a7a5fc05-4258-4b4b-a3a3-e92b058e495b</property>
+</record>
+<record>
+  <date>2018-12-05T13:20:00</date>
+  <millis>1543996200395</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:20:00</date>
+  <millis>1543996200395</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;DataDriven/CreateUserusingDataDriven\&amp;quot;, [\&amp;quot;dataDrivenusername\&amp;quot;:userName]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:20:00</date>
+  <millis>1543996200395</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;Using user name\&amp;quot; + userName)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-12-05T13:20:00</date>
+  <millis>1543996200396</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;Using user name\&amp;quot; + userName)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:20:00</date>
+  <millis>1543996200397</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/API-DataDriven/DataDriven</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:20:00</date>
+  <millis>1543996200397</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/API-DataDriven/DataDriven</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-12-05T13:20:00</date>
+  <millis>1543996200532</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/DataDrivenTesting</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

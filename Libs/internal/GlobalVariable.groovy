@@ -23,10 +23,15 @@ public class GlobalVariable {
      */
     public static Object Endpoint
      
+    /**
+     * <p></p>
+     */
+    public static Object CountryISOCode
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['userName' : 'ABC', 'Endpoint' : 'reqres.in'])
+        allVariables.put('default', ['userName' : 'ABC', 'Endpoint' : 'reqres.in', 'CountryISOCode' : 'IN'])
         allVariables.put('QA', allVariables['default'] + [:])
         
         String profileName = RunConfiguration.getExecutionProfile()
@@ -34,6 +39,7 @@ public class GlobalVariable {
         def selectedVariables = allVariables[profileName]
         userName = selectedVariables['userName']
         Endpoint = selectedVariables['Endpoint']
+        CountryISOCode = selectedVariables['CountryISOCode']
         
     }
 }

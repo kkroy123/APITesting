@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DataDrivenTesting" time="26" tests="3" failures="0" errors="0">
+   <testsuite name="DataDrivenTesting" tests="3" failures="0" errors="0" time="26" timestamp="2018-12-05 13:06:50" hostname="SYSTEM - DESKTOP" id="Test Suites/DataDrivenTesting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Apple\\Katalon Studio\\Project1\\Reports\\DataDrivenTesting\\20181205_130647"/>
+         <property name="logFiles" value="C:\\Users\\Apple\\Katalon Studio\\Project1\\Reports\\DataDrivenTesting\\20181205_130647\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SYSTEM - DESKTOP"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+      </properties>
+      <testcase name="Test Cases/API-DataDriven/DataDriven" classname="Test Cases/API-DataDriven/DataDriven" status="PASSED">
+         <system-out><![CDATA[2018-12-05 13:06:50 - [TEST_CASE][PASSED] - Test Cases/API-DataDriven/DataDriven: Test Cases/API-DataDriven/DataDriven
+
+2018-12-05 13:06:50 - [TEST_STEP][PASSED] - sendRequest(findTestObject("DataDriven/CreateUserusingDataDriven", ["dataDrivenusername":userName])): Send request successfully
+
+2018-12-05 13:06:55 - [MESSAGE][INFO] - HAR: C:\Users\Apple\Katalon Studio\Project1\Reports\DataDrivenTesting\20181205_130647\requests\main\0.har
+
+2018-12-05 13:06:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-05 13:06:55 - [TEST_STEP][PASSED] - println("Using user name" + userName): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API-DataDriven/DataDriven" classname="Test Cases/API-DataDriven/DataDriven" status="PASSED">
+         <system-out><![CDATA[2018-12-05 13:06:55 - [TEST_CASE][PASSED] - Test Cases/API-DataDriven/DataDriven: Test Cases/API-DataDriven/DataDriven
+
+2018-12-05 13:06:55 - [TEST_STEP][PASSED] - sendRequest(findTestObject("DataDriven/CreateUserusingDataDriven", ["dataDrivenusername":userName])): Send request successfully
+
+2018-12-05 13:06:57 - [MESSAGE][INFO] - HAR: C:\Users\Apple\Katalon Studio\Project1\Reports\DataDrivenTesting\20181205_130647\requests\main\1.har
+
+2018-12-05 13:06:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-05 13:06:57 - [TEST_STEP][PASSED] - println("Using user name" + userName): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API-DataDriven/DataDriven" classname="Test Cases/API-DataDriven/DataDriven" status="PASSED">
+         <system-out><![CDATA[2018-12-05 13:06:57 - [TEST_CASE][PASSED] - Test Cases/API-DataDriven/DataDriven: Test Cases/API-DataDriven/DataDriven
+
+2018-12-05 13:06:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("DataDriven/CreateUserusingDataDriven", ["dataDrivenusername":userName])): Send request successfully
+
+2018-12-05 13:07:16 - [MESSAGE][INFO] - HAR: C:\Users\Apple\Katalon Studio\Project1\Reports\DataDrivenTesting\20181205_130647\requests\main\2.har
+
+2018-12-05 13:07:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-05 13:07:16 - [TEST_STEP][PASSED] - println("Using user name" + userName): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-05 13:06:50 - [TEST_SUITE][PASSED] - DataDrivenTesting: Test Cases/API-DataDriven/DataDriven]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
