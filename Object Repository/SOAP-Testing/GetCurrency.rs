@@ -23,7 +23,7 @@
    <soapRequestMethod>SOAP</soapRequestMethod>
    <soapServiceFunction>CountryCurrency</soapServiceFunction>
    <variables>
-      <defaultValue>findTestData('DataDriven/CurrencyList').getValue(1, 3)</defaultValue>
+      <defaultValue>findTestData('DataDriven/CurrencyList').getValue(1, 2)</defaultValue>
       <description></description>
       <id>c376395f-dbcb-4d25-a28b-e55b7b15857f</id>
       <masked>false</masked>
