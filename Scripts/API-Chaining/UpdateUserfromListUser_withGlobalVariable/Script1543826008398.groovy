@@ -27,7 +27,7 @@ println('Value of setusername is' + value)
 
 println('Value of GlobalVariable is ' + GlobalVariable.userName)
 
-WS.sendRequestAndVerify(findTestObject('API-Chaining/UpdateUser', [('userName') : GlobalVariable.userName]))*/
+WS.sendRequestAndVerify(findTestObject('API-Chaining/UpdateUser', [('userName') : GlobalVariable.userName1]))*/
 
 
 WS.sendRequest(findTestObject('API-Chaining/UpdateUser', [('userName') : value]))
