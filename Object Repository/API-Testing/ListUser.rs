@@ -37,7 +37,7 @@ WS.verifyElementPropertyValue(response, 'per_page', 3)
 WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
-WS.verifyElementPropertyValue(response, 'data[0].first_name', &quot;George&quot;)
+WS.verifyElementPropertyValue(response, 'data[0].first_name', &quot;George1&quot;)
 WS.verifyElementPropertyValue(response, 'data[0].last_name', &quot;Bluth&quot;)
 WS.verifyElementPropertyValue(response, 'data[1].first_name', &quot;Janet&quot;)
 WS.verifyElementPropertyValue(response, 'data[1].last_name', &quot;Weaver&quot;)
